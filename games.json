@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Minecraft",
+        "description": "is a sandbox video game developed by the Swedish video game developer Mojang Studios. The game was created by Markus \"Notch\" Persson in the Java programming language. Following several early private testing versions, it was first made public in May 2009 before fully releasing in November 2011, with Jens Bergensten then taking over development. Minecraft has since been ported to several other platforms and is the best-selling video game of all time, with over 200 million copies sold and over 140 million monthly active users as of 2021.",
+        "category": [
+            "Sandbox",
+            "Survival",
+            "Single-player",
+            "multiplayer"
+        ],
+        "price": 27,
+        "imageURL": "assets/images/minecraft.webp"
+    },
+    {
+        "name": "Call of Duty",
+        "description": "Is a first-person shooter video game franchise published by Activision. Starting out in 2003, it first focused on games set in World War II. Over time, the series has seen games set in the midst of the Cold War, futuristic worlds, and outer space. The games were first developed by Infinity Ward, then also by Treyarch and Sledgehammer Games. Several spin-off and handheld games were made by other developers. The most recent title, Call of Duty: Black Ops Cold War, was released on November 13, 2020. The next title, Call of Duty: Vanguard, will be released on November 5, 2021.",
+        "category": [
+            "First-person shooter"
+        ],
+        "price": false,
+        "imageURL": "assets/images/call-of-duty.webp"
+    },
+    {
+        "name": "League of Legends",
+        "description": "League of Legends (LoL), commonly referred to as League, is a 2009 multiplayer online battle arena video game developed and published by Riot Games. Inspired by Defense of the Ancients, a custom map for Warcraft III, Riot's founders sought to develop a stand-alone game in the same genre. Since its release in October 2009, the game has been free-to-play and is monetized through purchasable character customization. The game is available for Microsoft Windows and macOS.",
+        "category": [
+            "MOBA",
+            "multiplayer"
+        ],
+        "price": false,
+        "imageURL": "assets/images/lol.webp"
+    },
+    {
+        "name": "Fortnite",
+        "description": "Is an online video game developed by Epic Games and released in 2017. It is available in three distinct game mode versions that otherwise share the same general gameplay and game engine: Fortnite: Save the World, a cooperative hybrid-tower defense-shooter-survival game for up to four players to fight off zombie-like creatures and defend objects with traps and fortifications they can build; Fortnite Battle Royale, a free-to-play battle royale game in which up to 100 players fight to be the last person standing; and Fortnite Creative, in which players are given complete freedom to create worlds and battle arenas. Save the World and Battle Royale were released in 2017 as early access titles, while Creative was released on December 6, 2018. While the Save the World and Creative versions have been successful for Epic Games, Fortnite Battle Royale in particular became an overwhelming success and a cultural phenomenon, drawing more than 125 million players in less than a year, earning hundreds of millions of dollars per month, and $9 billion in revenue in its first two years.",
+        "category": [
+            "Sandbox",
+            "Survival",
+            "Single-player",
+            "multiplayer"
+        ],
+        "price": false,
+        "imageURL": "assets/images/fornite.webp"
+    },
+    {
+        "name": "Among us",
+        "description": "Is a 2018 online multiplayer social deduction game developed and published by American game studio Innersloth. It was released on iOS and Android devices in June 2018 and on Windows in November 2018, featuring cross-platform play between these platforms. The game was also ported for the Nintendo Switch in December 2020, and has planned releases for the PlayStation 4, PlayStation 5, Xbox One and Xbox Series X/S in 2021. The game was inspired by the party game Mafia and the science fiction horror film The Thing. Since the release of its first map, The Skeld, three other maps were added, those being MIRA HQ, Polus and The Airship. The Airship's design is based on Infiltrating the Airship from the Henry Stickmin series, another video game series developed by Innersloth LLC.",
+        "category": [
+            "Party",
+            "social deduction",
+            "Multiplayer"
+        ],
+        "price": 4.99,
+        "imageURL": "assets/images/among-us.webp"
+    },
+    {
+        "name": "Until Dawn",
+        "description": "Is a 2015 interactive drama horror video game developed by Supermassive Games and published by Sony Computer Entertainment for the PlayStation 4. Players assume control of eight young adults who have to survive on Blackwood Mountain when their lives are threatened. The game features a hyperlink cinema-esque for its multilinear narratives and butterfly effect system in which players must make choices that may change the story. All playable characters can survive or die, depending on the choices made. Players explore the environment from a third-person perspective and find clues that may help solve the mystery.",
+        "category": [
+            "Interactive drama",
+            "survival horror",
+            "Single-player"
+        ],
+        "price": false,
+        "imageURL": "assets/images/until-dawn.webp"
+    },
+    {
+        "name": "Destiny",
+        "description": "Is an online-only multiplayer first-person shooter video game developed by Bungie and previously published by Activision. Destiny is now self-published by Bungie after separating from Activision in 2019.[3] It was released worldwide on September 9, 2014, for the PlayStation 3, PlayStation 4, Xbox 360, and Xbox One consoles. Destiny marked Bungie's first new console franchise since the Halo series, and it was the first game in a ten-year agreement between Bungie and Activision. Set in a \"mythic science fiction\" world, the game features a multiplayer \"shared-world\" environment with elements of role-playing games. Activities in Destiny are divided among player versus environment (PvE) and player versus player (PvP) game types. In addition to normal story missions, PvE features three-player \"strikes\" and six-player raids. A free roam patrol mode is also available for each destination which feature public events. PvP features objective-based modes, as well as traditional deathmatch game modes.",
+        "category": [
+            "First-person shooter",
+            "Multiplayer"
+        ],
+        "price": 30,
+        "imageURL": "assets/images/destiny.webp"
+    },
+    {
+        "name": "Grand Theft Auto V",
+        "description": "Is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, following 2008's Grand Theft Auto IV, and the fifteenth instalment overall. Set within the fictional state of San Andreas, based on Southern California, the single-player story follows three protagonists—retired bank robber Michael De Santa, street gangster Franklin Clinton, and drug dealer and gunrunner Trevor Philips—and their attempts to commit heists while under pressure from a corrupt government agency and powerful criminals. The open world design lets players freely roam San Andreas' open countryside and the fictional city of Los Santos, based on Los Angeles.",
+        "category": [
+            "Action-adventure",
+            "Single-player",
+            "Multiplayer"
+        ],
+        "price": 30,
+        "imageURL": "assets/images/gtav.webp"
+    },
+    {
+        "name": "Mortal Kombat 11",
+        "description": "Is a fighting game developed by NetherRealm Studios and published by Warner Bros. Interactive Entertainment. Running on a heavily modified version of Unreal Engine 3,[7] it is the eleventh main installment in the Mortal Kombat series and a sequel to 2015's Mortal Kombat X. Announced at The Game Awards 2018, the game was released in North America and Europe on April 23, 2019 for Microsoft Windows, Nintendo Switch, PlayStation 4 and Xbox One—with the exception of Europe's Switch version which was released on May 10, 2019.[8] The game was released on the Stadia on November 19, 2019.",
+        "category": [
+            "Fighting",
+            "Single-player",
+            "Multiplayer"
+        ],
+        "price": 49.99,
+        "imageURL": "assets/images/mortal-kombat-11.webp"
+    },
+    {
+        "name": "Slime Rancher",
+        "description": "Is a first-person life simulation adventure video game developed and published by American indie studio Monomi Park.[1] The game was released as an early access title in January 2016, with an official release on Windows, macOS, Linux and Xbox One on August 1, 2017.[2] A PlayStation 4 version was released on August 21, 2018, and a Nintendo Switch version was released on August 11, 2021. A DLC known as the secret style pack was released on June 18, 2019. A sequel, Slime Rancher 2, is set to be released in 2022 for Windows and Xbox Series X/S.",
+        "category": [
+            "Life simulation",
+            "Adventure",
+            "Single-player"
+        ],
+        "price": 19.99,
+        "imageURL": "assets/images/slime-rancher.webp"
+    }
+]
