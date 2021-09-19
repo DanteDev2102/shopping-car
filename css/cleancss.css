@@ -1,0 +1,76 @@
+:root{
+    box-sizing: border-box;
+}
+
+*,::before,::after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #121212;
+    color: #fff;
+}
+
+button{
+    background-color: transparent;
+    border-width: 0;
+    height: 2em;
+    width: 2em;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    align-items: center;
+}
+.header__logo{
+    max-height: 6em;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    height: 2em;
+}
+
+.filter__search{
+    height: 100%;
+    padding: 0 1em;
+    border: 0;
+    border-radius: 2em 0 0 2em;
+    min-width: 20em;
+}
+
+.filter__button{
+    background-color: #459CD5;
+    height: 100%;
+    border-radius: 0;
+}
+
+/* .icon{
+    height: 2em;
+} */
+
+.icon--search::before{
+    content:url(../assets/icons/search.svg);
+}
+
+.icon--login::before{
+    content:url(../assets/icons/login.svg);
+}
+
+.icon--cart::before{
+    content:url(../assets/icons/cart.svg);
+}
+
+.icon--menu::before{
+    content:url(../assets/icons/menu.svg);
+}
