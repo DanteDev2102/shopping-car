@@ -8,30 +8,44 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/cleancss.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <!-- fonts -->
 </head>
 
 <body>
     <header class="header">
-        <button title="header__menu">
+        <!-- <button title="header__menu">
             <span class="header__icon icon icon--menu"></span>
-        </button>
+        </button> -->
         <img src="assets/images/logo.svg" alt="Code Society" class="header__logo">
-        <div class="filter">
+        <!-- <div class="filter">
             <input type="text" name="" id="search" class="filter__search" placeholder="Search">
             <button class="filter__button">
                 <i class="icon icon--search"></i>
             </button>
-        </div>
+        </div> -->
         <div>
-            <button class="">
+            <button class="header__button">
                 <i class="icon icon--login"></i>
             </button>
-            <button >
+            <button class="header__button">
                 <i class="icon icon--cart"></i>
             </button>
         </div>
     </header>
-    <main class="main" id="main"></main>
+    <main class="main">
+        <div class="main__menu">
+            <nav class="main__nav">
+                <ul class="main__list" id="mainList">
+                    <li class="main__item">All</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="games-container" id="gamesContainer"></div>
+    </main>
     <footer class="footer">
         
     </footer>
