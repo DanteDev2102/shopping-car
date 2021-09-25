@@ -1,5 +1,4 @@
-[
-    {
+[{
         "name": "Minecraft",
         "description": "is a sandbox video game developed by the Swedish video game developer Mojang Studios. The game was created by Markus \"Notch\" Persson in the Java programming language. Following several early private testing versions, it was first made public in May 2009 before fully releasing in November 2011, with Jens Bergensten then taking over development. Minecraft has since been ported to several other platforms and is the best-selling video game of all time, with over 200 million copies sold and over 140 million monthly active users as of 2021.",
         "categories": [
@@ -14,23 +13,18 @@
     {
         "name": "Call of Duty",
         "description": "Is a first-person shooter video game franchise published by Activision. Starting out in 2003, it first focused on games set in World War II. Over time, the series has seen games set in the midst of the Cold War, futuristic worlds, and outer space. The games were first developed by Infinity Ward, then also by Treyarch and Sledgehammer Games. Several spin-off and handheld games were made by other developers. The most recent title, Call of Duty: Black Ops Cold War, was released on November 13, 2020. The next title, Call of Duty: Vanguard, will be released on November 5, 2021.",
-        "categories": [
-            "First-person shooter"
-        ],
+        "categories": ["First-person shooter"],
         "imageURL": "assets/images/call-of-duty.webp"
     },
     {
         "name": "League of Legends",
         "description": "League of Legends (LoL), commonly referred to as League, is a 2009 multiplayer online battle arena video game developed and published by Riot Games. Inspired by Defense of the Ancients, a custom map for Warcraft III, Riot's founders sought to develop a stand-alone game in the same genre. Since its release in October 2009, the game has been free-to-play and is monetized through purchasable character customization. The game is available for Microsoft Windows and macOS.",
-        "categories": [
-            "MOBA",
-            "Multiplayer"
-        ],
+        "categories": ["MOBA", "Multiplayer"],
         "imageURL": "assets/images/lol.webp"
     },
     {
         "name": "Fortnite",
-        "description": "Is an online video game developed by Epic Games and released in 2017. It is available in three distinct game mode versions that otherwise share the same general gameplay and game engine: Fortnite: Save the World, a cooperative hybrid-tower defense-shooter-survival game for up to four players to fight off zombie-like creatures and defend objects with traps and fortifications they can build; Fortnite Battle Royale, a free-to-play battle royale game in which up to 100 players fight to be the last person standing; and Fortnite Creative, in which players are given complete freedom to create worlds and battle arenas. Save the World and Battle Royale were released in 2017 as early access titles, while Creative was released on December 6, 2018. While the Save the World and Creative versions have been successful for Epic Games, Fortnite Battle Royale in particular became an overwhelming success and a cultural phenomenon, drawing more than 125 million players in less than a year, earning hundreds of millions of dollars per month, and $9 billion in revenue in its first two years.",
+        "description": "Is an online video game developed by Epic Games and released in 2017. It is available in three distinct game mode versions that otherwise share the same general gameplay and game engine: Fortnite: Save the World, a cooperative hybrid-tower defense-shooter-survival game for up to four players to fight off zombie-like creatures and defend objects with traps and fortifications they can build; Fortnite Battle Royale, a free-to-play battle royale game in which up to 100 players fight to be the last person standing; and Fortnite Creative, in which players are given complete freedom to create worlds and battle arenas.",
         "categories": [
             "Sandbox",
             "Survival",
@@ -42,11 +36,7 @@
     {
         "name": "Among us",
         "description": "Is a 2018 online multiplayer social deduction game developed and published by American game studio Innersloth. It was released on iOS and Android devices in June 2018 and on Windows in November 2018, featuring cross-platform play between these platforms. The game was also ported for the Nintendo Switch in December 2020, and has planned releases for the PlayStation 4, PlayStation 5, Xbox One and Xbox Series X/S in 2021. The game was inspired by the party game Mafia and the science fiction horror film The Thing. Since the release of its first map, The Skeld, three other maps were added, those being MIRA HQ, Polus and The Airship. The Airship's design is based on Infiltrating the Airship from the Henry Stickmin series, another video game series developed by Innersloth LLC.",
-        "categories": [
-            "Party",
-            "social deduction",
-            "Multiplayer"
-        ],
+        "categories": ["Party", "social deduction", "Multiplayer"],
         "price": 4.99,
         "imageURL": "assets/images/among-us.webp"
     },
@@ -63,10 +53,7 @@
     {
         "name": "Destiny",
         "description": "Is an online-only multiplayer first-person shooter video game developed by Bungie and previously published by Activision. Destiny is now self-published by Bungie after separating from Activision in 2019.[3] It was released worldwide on September 9, 2014, for the PlayStation 3, PlayStation 4, Xbox 360, and Xbox One consoles. Destiny marked Bungie's first new console franchise since the Halo series, and it was the first game in a ten-year agreement between Bungie and Activision. Set in a \"mythic science fiction\" world, the game features a multiplayer \"shared-world\" environment with elements of role-playing games. Activities in Destiny are divided among player versus environment (PvE) and player versus player (PvP) game types. In addition to normal story missions, PvE features three-player \"strikes\" and six-player raids. A free roam patrol mode is also available for each destination which feature public events. PvP features objective-based modes, as well as traditional deathmatch game modes.",
-        "categories": [
-            "First-person shooter",
-            "Multiplayer"
-        ],
+        "categories": ["First-person shooter", "Multiplayer"],
         "price": 30,
         "imageURL": "assets/images/destiny.webp"
     },
@@ -84,11 +71,7 @@
     {
         "name": "Mortal Kombat 11",
         "description": "Is a fighting game developed by NetherRealm Studios and published by Warner Bros. Interactive Entertainment. Running on a heavily modified version of Unreal Engine 3,[7] it is the eleventh main installment in the Mortal Kombat series and a sequel to 2015's Mortal Kombat X. Announced at The Game Awards 2018, the game was released in North America and Europe on April 23, 2019 for Microsoft Windows, Nintendo Switch, PlayStation 4 and Xbox One—with the exception of Europe's Switch version which was released on May 10, 2019.[8] The game was released on the Stadia on November 19, 2019.",
-        "categories": [
-            "Fighting",
-            "Single-player",
-            "Multiplayer"
-        ],
+        "categories": ["Fighting", "Single-player", "Multiplayer"],
         "price": 49.99,
         "imageURL": "assets/images/mortal-kombat-11.webp"
     },
@@ -102,5 +85,60 @@
         ],
         "price": 19.99,
         "imageURL": "assets/images/slime-rancher.webp"
+    },
+    {
+        "name": "Devil May Cry",
+        "description": "Devil May Cry HD Collection brings the first three original Devil May Cry titles; Devil May Cry, Devil May Cry 2, and Devil May Cry 3: Dante's Awakening Special Edition together in one action packed collection.",
+        "categories": ["Action-adventure", "Hack and slash"],
+        "price": 69.99,
+        "imageURL": "assets/images/devilMayCryHdCollection.webp"
+    },
+    {
+        "name": "Far Cry 5",
+        "description": "La descripción no es necesaria xd",
+        "categories": ["First-person shooter"],
+        "price": 45,
+        "imageURL": "assets/images/far-cry-5.webp"
+    },
+    {
+        "name": "OSU!",
+        "description": "Is a free-to-play rhythm game primarily developed, published, and created by Dean peppy Herbert, written in C# on the . NET framework.",
+        "categories": ["Rhythm"],
+        "imageURL": "assets/images/osu.webp"
+    },
+    {
+        "name": "Guitar Hero",
+        "description": "Is a music rhythm video game developed by Neversoft and published by Activision. It is the fourth main installment in the Guitar Hero series",
+        "categories": ["Rhythm"],
+        "price": 8.99,
+        "imageURL": "assets/images/guitarHeroWorldTour.webp"
+    },
+    {
+        "name": "Valorant",
+        "description": "Is a free-to-play first-person hero shooter developed and published by Riot Games, for Microsoft Windows. First teased under the codename Project A in October 2019, the game began a closed beta period with limited access on April 7, 2020, followed by an official release on June 2, 2020. The development of the game started in 2014.",
+        "categories": ["Multiplayer", "First-person hero shooter"],
+        "price": 69.99,
+        "imageURL": "assets/images/valorant.webp"
+    },
+    {
+        "name": "Undertale",
+        "description": "Undertale is a 2D role-playing video game created by indie developer Toby Fox. The player controls a child who has fallen into the Underground: a large, secluded region under the surface of the Earth, separated by a magic barrier.",
+        "categories": ["Single-player", "Aventure"],
+        "price": 30.99,
+        "imageURL": "assets/images/undertale.webp"
+    },
+    {
+        "name": "Pokemon White",
+        "description": "Similar to previous installments of the series, the two games follow the journey of a young Pokémon trainer through the region of Unova, as they train Pokémon used to compete against other trainers, while thwarting the schemes of the criminal organization Team Plasma.",
+        "categories": ["Single-player", "Aventure", "RPG"],
+        "price": 25.99,
+        "imageURL": "assets/images/Pokemon-White.webp"
+    },
+    {
+        "name": "Pokemon Black",
+        "description": "Similar to previous installments of the series, the two games follow the journey of a young Pokémon trainer through the region of Unova, as they train Pokémon used to compete against other trainers, while thwarting the schemes of the criminal organization Team Plasma.",
+        "categories": ["Single-player", "Aventure", "RPG"],
+        "price": 25.99,
+        "imageURL": "assets/images/Pokemon-Black.webp"
     }
 ]
