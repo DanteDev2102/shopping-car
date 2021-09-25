@@ -94,13 +94,6 @@
         "imageURL": "assets/images/devilMayCryHdCollection.webp"
     },
     {
-        "name": "Far Cry 5",
-        "description": "La descripción no es necesaria xd",
-        "categories": ["First-person shooter"],
-        "price": 45,
-        "imageURL": "assets/images/far-cry-5.webp"
-    },
-    {
         "name": "OSU!",
         "description": "Is a free-to-play rhythm game primarily developed, published, and created by Dean peppy Herbert, written in C# on the . NET framework.",
         "categories": ["Rhythm"],
@@ -112,13 +105,6 @@
         "categories": ["Rhythm"],
         "price": 8.99,
         "imageURL": "assets/images/guitarHeroWorldTour.webp"
-    },
-    {
-        "name": "Valorant",
-        "description": "Is a free-to-play first-person hero shooter developed and published by Riot Games, for Microsoft Windows. First teased under the codename Project A in October 2019, the game began a closed beta period with limited access on April 7, 2020, followed by an official release on June 2, 2020. The development of the game started in 2014.",
-        "categories": ["Multiplayer", "First-person hero shooter"],
-        "price": 69.99,
-        "imageURL": "assets/images/valorant.webp"
     },
     {
         "name": "Undertale",
