@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/cleancss.css">
+    <link rel="stylesheet" href="css/cart.css">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,17 +17,16 @@
 </head>
 
 <body>
+    <div class="modal modal--hidden" id="modal">
+        <div class="modal__message">Thank you for buying! <span class="modal__text">Let's to play</span></div>
+    </div>
     <header class="header">
         <!-- <button title="header__menu">
             <span class="header__icon icon icon--menu"></span>
         </button> -->
-        <img src="assets/images/logo.svg" alt="Code Society" class="header__logo">
-        <!-- <div class="filter">
-            <input type="text" name="" id="search" class="filter__search" placeholder="Search">
-            <button class="filter__button">
-                <i class="icon icon--search"></i>
-            </button>
-        </div> -->
+        <a href="./index.html">
+            <img src="assets/images/logo.svg" alt="Code Society" class="header__logo">
+        </a>
         <div class="header__actions">
             <button class="header__button">
                 <i class="icon icon--login"></i>
@@ -39,20 +39,19 @@
         </div>
     </header>
     <main class="main">
-        <div class="main__menu">
-            <nav class="main__nav">
-                <ul class="main__list" id="mainList">
-                    <li class="main__item">All</li>
-                </ul>
-            </nav>
+        <h1 class="title">Shopping bag</h1>
+        <div class="games" id="gamesContainer">
+            <div class="games__header card">
+                <div class="games__label">Name</div>
+                <div class="games__label">Precio</div>
+            </div>
         </div>
-        <div class="games" id="gamesContainer"></div>
     </main>
     <footer class="footer">
 
     </footer>
+    <script src="js/cart.js" type="module"></script>
     <script src="js/functions.js" type="module"></script>
-    <script src="js/app.js" type="module"></script>
 </body>
 
 </html>

@@ -1,22 +1,11 @@
 'use strict';
 
+import { newNode } from "./functions.js";
+
 const $gamesContainer = document.getElementById('gamesContainer');
 const $mainList = document.getElementById('mainList');
-let existingCategories = [];
-
-/*create new Element, append them and return them*/
-const newNode = ({ HTMLTag = 'div', parent, txtContent = '', classes = [] }) => {
-    const $node = document.createElement(HTMLTag);
-    /* add textContent if it is defined */
-    if (txtContent !== undefined)
-        $node.textContent = txtContent;
-    /* ADD CLASS IF IT IS DEFINED */
-    if (classes.length > 0)
-        classes.forEach((E) => $node.classList.add(E));
-    /* APPEND THE NODE IN THE PARENT NODE (PARAMETER)*/
-    parent.append($node)
-    return $node;
-}
+let existingCategories = [],
+    gamesToBuy = [];
 
 const getData$ = async () => {
     try {
@@ -39,6 +28,8 @@ const renderData = (games) => {
         });
 
         $card.game = game;
+
+        newNode({ HTMLTag: 'h2', parent: $card, txtContent: game.name, classes: ['card__title'] })
 
         const $img = newNode({
             HTMLTag: 'img',
@@ -73,6 +64,10 @@ const renderData = (games) => {
     $mainList.append(categoriesfragment);
 }
 
+const updateLS = (data) => {
+    localStorage.setItem('cart', JSON.stringify(gamesToBuy));
+}
+
 getData$();
 
 document.body.addEventListener('click', (e) => {
@@ -88,7 +83,22 @@ document.body.addEventListener('click', (e) => {
 
             if (!card.game.categories.includes(category))
                 card.classList.add('card--hidden');
-
         });
     }
 });
+
+$gamesContainer.addEventListener('click', (event) => {
+    const $E = event.target;
+    const game = $E.closest('.card').game;
+
+    if ($E.classList.contains('card__button') &&
+        !gamesToBuy.some((E) => E.name === game.name)) {
+
+        gamesToBuy = gamesToBuy.concat(game);
+        document.querySelector('.icon--cart').setAttribute('products', gamesToBuy.length);
+        updateLS();
+        $E.setAttribute('disabled','');
+    }
+});
+
+document.querySelector('.icon--cart').setAttribute('products', gamesToBuy.length);

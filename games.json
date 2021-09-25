@@ -17,7 +17,6 @@
         "categories": [
             "First-person shooter"
         ],
-        "price": false,
         "imageURL": "assets/images/call-of-duty.webp"
     },
     {
@@ -27,7 +26,6 @@
             "MOBA",
             "Multiplayer"
         ],
-        "price": false,
         "imageURL": "assets/images/lol.webp"
     },
     {
@@ -39,7 +37,6 @@
             "Single-player",
             "Multiplayer"
         ],
-        "price": false,
         "imageURL": "assets/images/fornite.webp"
     },
     {
@@ -61,7 +58,6 @@
             "Survival horror",
             "Single-player"
         ],
-        "price": false,
         "imageURL": "assets/images/until-dawn.webp"
     },
     {
